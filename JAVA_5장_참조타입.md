@@ -85,6 +85,7 @@
 
 - 자바는 문자열 리터럴이 동일하다면 String 객체를 공유한다.
   ![예시](https://postfiles.pstatic.net/MjAyMTA5MTFfOCAg/MDAxNjMxMjk0MDg1NjUx.uo3NbSyB0w6DgE_yLHbAo8JbXpvXZ2mQJN5HWDGhwM4g.VG5ewPN53V-uMETYmLwhWFzAY_qGIR-ucEqsqmDbzq8g.JPEG.chex417/String%EA%B0%9D%EC%B2%B4%EA%B3%B5%EC%9C%A0.jpg?type=w773)
+  
 - name1과 name2 변수가 동일한 문자열 리터럴인 "신용권"을 참조할 경우 동일한 String 객체를 참조하게 된다.
 
 - 일반적으로 변수에 문자열을 저장할 경우에는 위와 같이 문자열 리터럴을 사용하지만, **new 연산자**를 사용해서 String 객체를 생성할 수 있다.
@@ -139,6 +140,7 @@
 
   - 자바는 일차원 배열이 서로 연결된 구조로 다차원 배열을 구현하기 때문에 수학 행렬 구조가 아닌 **계단식 구조**를 가진다.
     ![다차원배열](https://postfiles.pstatic.net/MjAyMTA5MTFfMTE2/MDAxNjMxMjk2MTQyMzI4.JrylcxOj3aPhD3E-s3yfnD4hCdSWYDe6b238cU3Q2_8g.06KgquPoSIdP7XNQ1MvKHa4b2b8FJEjbIcFOHRg8I7Qg.JPEG.chex417/%EB%8B%A4%EC%B0%A8%EC%9B%90%EB%B0%B0%EC%97%B4.jpg?type=w773)
+  
     scores는 길이 2인 배열A를 참조한다.
 
     배열A의 scores[0]은 다시 길이2인 배열B를 참조한다.
@@ -170,6 +172,7 @@
   ```
 
   ![얕은복사](https://postfiles.pstatic.net/MjAyMTA5MTFfMjMz/MDAxNjMxMjk2OTYyNjMx.H9KJx4m2f4Ivt2g2QUMZ72ZRqYHAnSa2S2tfWPfjeaIg.DQ8WK52nRMoclhveUotdyNh-oTyxItIpKn7LByoV2zwg.JPEG.chex417/%EC%96%95%EC%9D%80%EB%B3%B5%EC%82%AC.jpg?type=w773)
+  
   객체를 참조하는 배열인 경우, 배열 복사가 되면 복사되는 것이 객체의 주소이므로 새 배열의 항목은 이전 배열의 항목이 참조하는 객체와 동일하다.
   이것을 `얕은 복사(shallow copy)`라고 한다.
 
