@@ -84,7 +84,8 @@
   - name 변수와 hobby 변수에는 String 객체의 주소값이 저장
 
 - 자바는 문자열 리터럴이 동일하다면 String 객체를 공유한다.
-  ![예시](https://postfiles.pstatic.net/MjAyMTA5MTFfOCAg/MDAxNjMxMjk0MDg1NjUx.uo3NbSyB0w6DgE_yLHbAo8JbXpvXZ2mQJN5HWDGhwM4g.VG5ewPN53V-uMETYmLwhWFzAY_qGIR-ucEqsqmDbzq8g.JPEG.chex417/String%EA%B0%9D%EC%B2%B4%EA%B3%B5%EC%9C%A0.jpg?type=w773) - name1과 name2 변수가 동일한 문자열 리터럴인 "신용권"을 참조할 경우 동일한 String 객체를 참조하게 된다.
+  ![예시](https://postfiles.pstatic.net/MjAyMTA5MTFfOCAg/MDAxNjMxMjk0MDg1NjUx.uo3NbSyB0w6DgE_yLHbAo8JbXpvXZ2mQJN5HWDGhwM4g.VG5ewPN53V-uMETYmLwhWFzAY_qGIR-ucEqsqmDbzq8g.JPEG.chex417/String%EA%B0%9D%EC%B2%B4%EA%B3%B5%EC%9C%A0.jpg?type=w773)
+- name1과 name2 변수가 동일한 문자열 리터럴인 "신용권"을 참조할 경우 동일한 String 객체를 참조하게 된다.
 
 - 일반적으로 변수에 문자열을 저장할 경우에는 위와 같이 문자열 리터럴을 사용하지만, **new 연산자**를 사용해서 String 객체를 생성할 수 있다.
   ![new연산자로 String 객체 생성](https://postfiles.pstatic.net/MjAyMTA5MTFfMTEg/MDAxNjMxMjk0NDUyNDcz.pbnEOFJXBbYCfBe5WoMSKEYPhlN-o0LHRw4-2OCWTaIg.pkGcHMmY2X5y5CBDwzAEgmpCnwE1ma8V2rxZDE4aRHQg.JPEG.chex417/new%EC%97%B0%EC%82%B0%EC%9E%90.jpg?type=w773)
