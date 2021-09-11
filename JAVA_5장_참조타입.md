@@ -95,9 +95,9 @@
 - **문자열 리터럴**로 생성하느냐 VS **new 연산자**로 생성하느냐에 따라 비교 연산자의 결과가 달라질 수 있다.
 
   ```
-  String name1 = "강동원";
-  String name1 = "강동원";
-  String name3 = new String("강동원");
+  String name1 = "신용권";
+  String name2 = "신용권";
+  String name3 = new String("신용권");
 
   name1 == name2 // true
   name1 == name3 // false
