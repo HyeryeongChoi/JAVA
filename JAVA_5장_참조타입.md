@@ -105,7 +105,7 @@
   boolean result = name1.equals(name3); // true
   ```
 
-  동일한 String 객체이건 다른 String 객체이건 상관없이 **문자열만을** 비교할 대에는 String 객체의 **equals()** 메소드를 사용해야 한다.
+  동일한 String 객체이건 다른 String 객체이건 상관없이 **문자열만을** 비교할 때에는 String 객체의 **equals()** 메소드를 사용해야 한다.
 
 ---
 
