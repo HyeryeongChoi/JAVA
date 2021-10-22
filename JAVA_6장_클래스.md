@@ -84,7 +84,7 @@ public class StudentExample {
     자바는 다양한 방법으로 객체를 생성하기 위한 생성자 오버로딩을 제공한다.
     생성자오버로딩: 매개 변수를 달리하는 생성자를 여러 개 선언하는 것
 
-![생성자 오버로딩](https://postfiles.pstatic.net/MjAyMTA5MjVfMTkx/MDAxNjMyNTcyMTQ2MDA5.RDnEFC3SlReDXT3WVwdLc3mHtg6d-JAG36-pf9uxzlcg.K2Esl343adL-2khA3N6471quxw9EmDe8CxSP6cSaiYsg.PNG.chex417/A4%EB%B2%84%EB%A1%9C%%EC%83%9D%EC%84%B1%EC%9E%90%EC%98%EB%94%A9.PNG?type=w773)
+![생성자 오버로딩](https://postfiles.pstatic.net/MjAyMTA5MjVfMTkx/MDAxNjMyNTcyMTQ2MDA5.RDnEFC3SlReDXT3WVwdLc3mHtg6d-JAG36-pf9uxzlcg.K2Esl343adL-2khA3N6471quxw9EmDe8CxSP6cSaiYsg.PNG.chex417/%EC%83%9D%EC%84%B1%EC%9E%90%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9.PNG?type=w773)
 
 - 생성자의 오버로딩: 매개변수의 타입, 개수, 순서를 다르게 선언
 - 생성자에서 다른 생성자를 호출할 때에는 `this()`코드를 사용한다. -> 중복 코드 방지
